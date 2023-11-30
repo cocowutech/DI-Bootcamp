@@ -1,8 +1,6 @@
 .navbar{
     background-color: black;
     overflow: hidden;
-    background-color: black;
-    overflow: hidden;
     display: inline-block;
     position:fixed;
     width: 100%;
@@ -35,11 +33,11 @@
     text-align: center;
 }
 
+
 /* product display */
 .Cards{
-    display: inline-block;
-    position: relative;
-    margin-top: 60px;
+    display: block;
+    margin-top: 80px;
     text-align: center;
     
 }
@@ -47,9 +45,8 @@
     display: inline-block;
     text-align: center;
     width:20%;
-    margin: 1%;
     position: relative;
-    overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .ClothesCard img{
@@ -58,31 +55,74 @@
     border-radius: 5%;
 }
 
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 30px; 
+    position: absolute;
+    top: 10px;
+    font-size: 12px;
+}
+
+.left-circle {
+    background-color: green;
+    left: 15px;
+}
+
+.right-circle {
+    background-color: red;
+    right: 15px;
+}
+
 .description{
     display: inline-block;
     width: 100%;
     font-size: 0.8rem;
+    margin-bottom: 0; 
 }
 
 .price{
     display: inline-block;
     width: 100%;
-    text-align: end;
-    align-items: center;
+    text-align: center;
 }
 
 .pricebefore{
-    width:100px;
-    float: right;
-    text-align: left;
+    display: inline-block;
     text-decoration: line-through;
     color: #dbdbdb;
+    font-size: small;
 }
 
 .priceafter{
-    width:100px;
-    float: left;
-    text-align: right;
+    display: inline-block;
     color: #00a86b;
     font-weight: bold;
+}
+
+.btn{
+    display: inline-block;
+    text-transform: uppercase;
+    color: darkgray;
+    font-weight: bold;
+    border: 2px solid #dbdbdb;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* footer */
+.footer {
+    font-style: italic;
+    color: grey;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
