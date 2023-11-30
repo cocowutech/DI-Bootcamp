@@ -1,0 +1,33 @@
+.navbar{
+    background-color: black;
+    overflow: hidden;
+    display: inline-block;
+    position:fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    float: left;
+    color:white;
+    height: 30px;
+    margin-top: 25px;
+}
+
+.menu{
+    float: right;
+    list-style-type: none;
+}
+
+.menu li{
+    float: left;
+    padding: 10px;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}

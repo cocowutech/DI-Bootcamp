@@ -1,0 +1,88 @@
+.navbar{
+    background-color: black;
+    overflow: hidden;
+    background-color: black;
+    overflow: hidden;
+    display: inline-block;
+    position:fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo{
+    float: left;
+    color:white;
+    height: 30px;
+    margin-top: 25px;
+}
+
+.menu{
+    float: right;
+    list-style-type: none;
+}
+
+.menu li{
+    float: left;
+    padding: 10px;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+/* product display */
+.Cards{
+    display: inline-block;
+    position: relative;
+    margin-top: 60px;
+    text-align: center;
+    
+}
+.ClothesCard{
+    display: inline-block;
+    text-align: center;
+    width:20%;
+    margin: 1%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ClothesCard img{
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.description{
+    display: inline-block;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+.price{
+    display: inline-block;
+    width: 100%;
+    text-align: end;
+    align-items: center;
+}
+
+.pricebefore{
+    width:100px;
+    float: right;
+    text-align: left;
+    text-decoration: line-through;
+    color: #dbdbdb;
+}
+
+.priceafter{
+    width:100px;
+    float: left;
+    text-align: right;
+    color: #00a86b;
+    font-weight: bold;
+}
