@@ -1,0 +1,27 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border:1px solid black
+}
+
+.main{
+    display: flex;
+    border: 1px solid red;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container-sides{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 70vh;
+}
